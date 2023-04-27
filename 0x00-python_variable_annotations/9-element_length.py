@@ -4,10 +4,10 @@ Python - Variable Annotations
 '''
 
 
-from typing import Tuple, List, Sequence
+from typing import Tuple, Sequence, Iterable
 
 
-def element_length(lst: List[Sequence]) -> Tuple[Sequence, int]:
+def element_length(lst: Iterable[Sequence]) -> Tuple[Sequence, int]:
     '''
     Python - Variable Annotations
     '''
